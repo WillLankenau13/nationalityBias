@@ -1,0 +1,145 @@
+"","intercept","r_squared","filter","terms","sh_filter","sot_filter","players"
+"1","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.999919801025264,"goals > 0 & goals != pk_standard & overall > 89",7,"shots > 0","sot > 0",11
+"2","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.991671494402984,"goals > 0 & goals != pk_standard & overall > 88",7,"shots > 0","sot > 0",22
+"3","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.961906417550546,"goals > 0 & goals != pk_standard & overall > 87",7,"shots > 0","sot > 0",34
+"4","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age, season",0.923858708111408,"goals > 0 & goals != pk_standard & overall > 82",7,"shots > 0","sot > 0",164
+"5","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.91409233211429,"goals > 0 & goals != pk_standard & overall > 86",7,"shots > 0","sot > 0",56
+"6","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.897408494617366,"goals > 0 & goals != pk_standard & overall > 82",7,"shots > 0","sot > 0",164
+"7","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.896042650234396,"goals > 0 & goals != pk_standard & overall > 84",7,"shots > 0","sot > 0",95
+"8","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.893833660825914,"goals > 0 & goals != pk_standard & overall > 85",7,"shots > 0","sot > 0",76
+"9","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.885425916120994,"goals > 0 & goals != pk_standard & overall > 81",7,"shots > 0","sot > 0",216
+"10","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.885041054098786,"goals > 0 & goals != pk_standard & overall > 83",7,"shots > 0","sot > 0",127
+"11","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.872451910988698,"goals > 0 & goals != pk_standard & overall > 80",7,"shots > 0","sot > 0",268
+"12","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.869004590591725,"goals > 0 & goals != pk_standard & overall > 79",7,"shots > 0","sot > 0",324
+"13","log(goals - pk_standard), primary_position, squad, poly(dist_standard, 2), shots, games, age, x_g_expected, overall",0.856144601773383,"goals > 0 & goals != pk_standard",10,"shots > 0","sot > 0",830
+"14","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age, season",0.851664420349888,"goals > 0 & goals != pk_standard & games > 10",7,"shots > 0","sot > 0",721
+"15","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, poly(age, 2), season",0.84918111969534,"goals > 0 & goals != pk_standard",8,"shots > 0","sot > 0",830
+"16","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.848261067401418,"goals > 0 & goals != pk_standard & overall > 78",7,"shots > 0","sot > 0",392
+"17","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age, season, fk_standard",0.845861676798081,"goals > 0 & goals != pk_standard",8,"shots > 0","sot > 0",830
+"18","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age, season, g_minus_x_g_expected",0.845305619824219,"goals > 0 & goals != pk_standard",8,"shots > 0","sot > 0",830
+"19","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age, season",0.845193672616,"goals > 0 & goals != pk_standard",7,"shots > 0","sot > 0",830
+"20","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age, season, pk_standard",0.845031867000537,"goals > 0 & goals != pk_standard",8,"shots > 0","sot > 0",830
+"21","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age, season, dist_standard:sh_per_game",0.845005553718203,"goals > 0 & goals != pk_standard",8,"shots > 0","sot > 0",830
+"22","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age, season, goals",0.845000825871044,"goals > 0 & goals != pk_standard",8,"shots > 0","sot > 0",830
+"23","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age",0.843774918303772,"goals > 0 & goals != pk_standard",6,"shots > 0","sot > 0",830
+"24","log(goals - pk_standard), primary_position, squad, dist_standard, shots, games, age",0.843346555227516,"goals > 0 & goals != pk_standard",7,"shots > 0","sot > 0",830
+"25","log(goals - pk_standard), primary_position, squad, poly(dist_standard, 2), shots, games, age",0.843247938966368,"goals > 0 & goals != pk_standard",8,"shots > 0","sot > 0",830
+"26","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age, season",0.840844258502191,"goals > 0 & goals != pk_standard & shots > 10",7,"shots > 0","sot > 0",705
+"27","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age, season",0.835945396515031,"goals > 0 & goals != pk_standard & sot > 5",7,"shots > 0","sot > 0",542
+"28","goals, primary_position, squad, poly(dist_standard, 2), shots, games, age, x_g_expected, overall",0.833782714284526,"none",10,"shots > 0","sot > 0",1122
+"29","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.826374768110669,"goals > 0 & goals != pk_standard & overall > 77",7,"shots > 0","sot > 0",476
+"30","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.825918230820282,"goals > 0 & goals != pk_standard & overall > 76",7,"shots > 0","sot > 0",569
+"31","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age, season",0.825228471229044,"goals > 0 & goals != pk_standard & shots > 20",7,"shots > 0","sot > 0",491
+"32","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.811473826160925,"goals > 0 & goals != pk_standard & overall > 75",7,"shots > 0","sot > 0",640
+"33","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), shots, games, age, x_g_expected, overall",0.804289890029849,"goals > 0 & goals != pk_standard",10,"shots > 0","sot > 0",830
+"34","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.803068395406382,"goals > 0 & goals != pk_standard & overall > 74",7,"shots > 0","sot > 0",719
+"35","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age, overall",0.801275731100538,"goals > 0 & goals != pk_standard",7,"shots > 0","sot > 0",830
+"36","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), shots, games, age, g_minus_x_g_expected",0.800522047429315,"goals > 0 & goals != pk_standard",9,"shots > 0","sot > 0",830
+"37","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age, g_minus_x_g_expected",0.800314606864507,"goals > 0 & goals != pk_standard",8,"shots > 0","sot > 0",830
+"38","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, poly(age, 2), g_minus_x_g_expected",0.799717172543877,"goals > 0 & goals != pk_standard",8,"shots > 0","sot > 0",830
+"39","log(goals - pk_standard), pos, squad, dist_standard, shots, games, age, g_minus_x_g_expected",0.799639450645426,"goals > 1 & goals != pk_standard",8,"shots > 5","sot > 0",NA
+"40","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age",0.799494627412012,"goals > 0 & goals != pk_standard",7,"shots > 0","sot > 0",830
+"41","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age, days_at_club",0.799332657661033,"goals > 0 & goals != pk_standard",7,"shots > 0","sot > 0",830
+"42","log(goals - pk_standard), pos, squad, dist_standard, shots, games, age, np_g_minus_x_g_expected",0.799275269996993,"goals > 1 & goals != pk_standard",8,"shots > 5","sot > 0",NA
+"43","log(goals - pk_standard), pos, squad, dist_standard, shots, games, age, g_minus_x_g_expected",0.799080757862183,"goals > 0 & goals != pk_standard",8,"shots > 0","sot > 0",830
+"44","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age, g_minus_x_g_expected",0.798826984524864,"goals > 0 & goals != pk_standard",7,"shots > 0","sot > 0",830
+"45","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age, np_g_minus_x_g_expected",0.798599393776284,"goals > 0 & goals != pk_standard",7,"shots > 0","sot > 0",830
+"46","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age, g_minus_x_g_expected",0.798516977427876,"goals > 0 & goals != pk_standard",7,"shots > 1","sot > 0",823
+"47","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), shots, games, age",0.798382907591104,"goals > 0 & goals != pk_standard",8,"shots > 0","sot > 0",830
+"48","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), shots, games, age, x_g_expected",0.798154552280327,"goals > 0 & goals != pk_standard",9,"shots > 0","sot > 0",830
+"49","log(goals - pk_standard), primary_position, squad, dist_standard, sh_per_game, age, season",0.798036937296454,"goals > 0 & goals != pk_standard & sot > 10",7,"shots > 0","sot > 0",314
+"50","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age, sh_per_90_standard",0.797956733133804,"goals > 0 & goals != pk_standard",7,"shots > 0","sot > 0",830
+"51","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age",0.797790201292993,"goals > 0 & goals != pk_standard",6,"shots > 0","sot > 0",830
+"52","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age, x_g_expected",0.797701062463767,"goals > 0 & goals != pk_standard",7,"shots > 0","sot > 0",830
+"53","log(goals - pk_standard), pos, squad, dist_standard, sh_per_90_standard, age, g_minus_x_g_expected",0.797453417419967,"goals > 1 & goals != pk_standard",7,"shots > 5","sot > 0",NA
+"54","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age",0.797082381841742,"goals > 1 & goals != pk_standard",6,"shots > -1","sot > 1",547
+"55","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age",0.797064554324306,"goals > 1 & goals != pk_standard",6,"shots > 0","sot > 0",548
+"56","log(goals - pk_standard), pos, squad, dist_standard, shots, games, born, g_minus_x_g_expected",0.795796341737745,"goals > 1 & goals != pk_standard",8,"shots > 5","sot > 0",NA
+"57","log(goals - pk_standard), pos, squad, dist_standard, shots, games, age, so_t_per_90_standard",0.795603051507806,"goals > 1 & goals != pk_standard",8,"shots > 5","sot > 0",NA
+"58","log(goals - pk_standard), pos, squad, dist_standard, shots, games, age",0.795467818271643,"goals > 1 & goals != pk_standard",7,"shots > 5","sot > 0",NA
+"59","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age",0.795201808774844,"goals > 0 & goals != pk_standard",6,"shots > 4","sot > 0",796
+"60","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age",0.794705425526308,"goals > 1 & goals != pk_standard",6,"shots > 5","sot > 0",NA
+"61","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age",0.794340734437422,"goals > 0 & goals != pk_standard",6,"shots > 5","sot > 0",786
+"62","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age, g_minus_x_g_expected",0.793778549096192,"goals > 0 & goals != pk_standard",7,"shots > 0","sot > 1",787
+"63","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age",0.79330334101314,"goals > 0 & goals != pk_standard",6,"shots > 3","sot > 0",811
+"64","log(goals - pk_standard), pos, squad, dist_standard, games, age, g_minus_x_g_expected",0.792896318284654,"goals > 1 & goals != pk_standard",7,"shots > 5","sot > 0",NA
+"65","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age",0.792382908341871,"goals > 1 & goals != pk_standard",6,"shots > -1","sot > 2",538
+"66","pos, squad, dist_standard, shots, games, age, g_minus_x_g_expected",0.785131920228868,"goals > 1 & goals != pk_standard",7,"shots > 5","sot > 0",NA
+"67","log(goals - pk_standard), pos, table_position, dist_standard, sh_per_game, age, x_g_expected",0.785084138372929,"goals > 0 & goals != pk_standard",7,"shots > 0","sot > 0",830
+"68","log(goals - pk_standard), pos, squad, dist_standard, shots, age, g_minus_x_g_expected",0.783087903261396,"goals > 1 & goals != pk_standard",7,"shots > 5","sot > 0",NA
+"69","log(goals - pk_standard), pos, squad, dist_standard, shots, games, g_minus_x_g_expected",0.781288738247478,"goals > 1 & goals != pk_standard",7,"shots > 5","sot > 0",NA
+"70","log(goals - pk_standard), pos, squad, dist_standard, shots, games, sh_per_90_standard",0.77812206889833,"goals > 1 & goals != pk_standard",7,"shots > 5","sot > 0",NA
+"71","log(goals - pk_standard), pos, squad, dist_standard, shots, games",0.777733947774351,"goals > 1 & goals != pk_standard",6,"shots > 5","sot > 0",NA
+"72","log(goals - pk_standard), pos, squad, dist_standard, sh_per_90_standard",0.775968995746996,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"73","log(goals - pk_standard), pos, dist_standard, shots, games, age, g_minus_x_g_expected",0.775684997899112,"goals > 1 & goals != pk_standard",7,"shots > 5","sot > 0",NA
+"74","poly(sqrt(goals - pk_standard), 2), pos, squad, poly(dist_standard, 2), shots, games, age, x_g_expected, overall",0.775574370435058,"none",11,"shots > 0","sot > 0",1122
+"75","log(goals - pk_standard), pos, squad, dist_standard, age",0.774715314518683,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"76","sqrt(goals - pk_standard), pos, squad, poly(dist_standard, 2), shots, games, age, x_g_expected, overall",0.773116029759625,"none",10,"shots > 0","sot > 0",1122
+"77","log(goals - pk_standard), pos, dist_standard, sh_per_game, age, x_g_expected",0.769950075425112,"goals > 0 & goals != pk_standard",6,"shots > 0","sot > 0",830
+"78","log(goals - pk_standard), pos, squad, dist_standard, so_t_per_90_standard",0.769461789508444,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"79","goals, pos, squad, poly(dist_standard, 2), shots, games, age, x_g_expected, overall",0.76765130412059,"none",10,"shots > 0","sot > 0",1122
+"80","log(goals - pk_standard), pos, squad, dist_standard, np_g_minus_x_g_expected",0.766332249140396,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"81","log(goals - pk_standard), pos, squad, dist_standard, g_minus_x_g_expected",0.766222492110605,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"82","log(goals - pk_standard), pos, squad, shots, games, age, g_minus_x_g_expected",0.764409665550696,"goals > 1 & goals != pk_standard",7,"shots > 5","sot > 0",NA
+"83","log(goals - pk_standard), pos, squad, dist_standard, g_per_sh_standard",0.763704235191504,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"84","log(goals - pk_standard), pos, squad, dist_standard, games",0.763682912898889,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"85","log(goals - pk_standard), shots, x_g_expected, pos, squad, dist_standard",0.763182963465823,"goals > 1 & goals != pk_standard",6,"shots > 5","sot > 0",NA
+"86","log(goals - pk_standard), x_g_expected, pos, dist_standard, squad",0.762988626009989,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"87","log(goals - pk_standard), pos, squad, dist_standard, shots",0.762927449088199,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"88","log(goals - pk_standard), pos, squad, dist_standard, npx_g_expected",0.762434867317796,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"89","log(goals - pk_standard), pos, squad, dist_standard, fk_standard",0.761606642538196,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"90","log(goals - pk_standard), pos, squad, dist_standard, npx_g_per_sh_expected",0.761458911341156,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"91","log(goals), shots, pos, squad, dist_standard",0.759957229606491,"goals > 1",5,"shots > 5","sot > 0",NA
+"92","log(goals - pk_standard), pos, squad, dist_standard",0.759494523678898,"goals > 1 & goals != pk_standard",4,"shots > 5","sot > 0",NA
+"93","log(goals - pk_standard), pos, squad, dist_standard, so_t_percent_standard",0.759030514084193,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"94","log(goals - pk_standard), pos, squad, dist_standard, table_position",0.759023850626477,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"95","log(goals - pk_standard), pos, squad, dist_standard, season",0.7585891483397,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"96","log(goals - pk_standard), x_g_expected, pos, dist_standard, table_position",0.758009784679804,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"97","log(goals), sot, pos, squad, dist_standard",0.757959232606703,"goals > 1",5,"shots > 5","sot > 0",NA
+"98","log(goals - pk_standard), x_g_expected, pos, dist_standard, squad_group",0.757917825493281,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"99","log(goals), pos, squad, dist_standard",0.755919782024342,"goals > 1",4,"shots > 5","sot > 0",NA
+"100","log(goals - pk_standard), pos, dist_standard, age",0.742363506892931,"goals > 1 & goals != pk_standard",4,"shots > 5","sot > 0",NA
+"101","log(goals), pos, squad, x_g_expected, shots",0.737506892757497,"goals > 1",5,"shots > 5","sot > 0",NA
+"102","log(goals), shots, pos, squad",0.735914286393341,"goals > 1",4,"shots > 5","sot > 0",NA
+"103","log(goals - pk_standard), shots, x_g_expected, pos, squad",0.735853046231181,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"104","log(goals - pk_standard), x_g_expected, pos, dist_standard",0.73529308769179,"goals > 1 & goals != pk_standard",4,"shots > 5","sot > 0",NA
+"105","log(goals - pk_standard), shots, x_g_expected, pos, dist_standard",0.735115172988341,"goals > 1 & goals != pk_standard",5,"shots > 5","sot > 0",NA
+"106","log(goals - pk_standard), squad, pos, age",0.734559211496382,"goals > 1 & goals != pk_standard",4,"shots > 5","sot > 0",NA
+"107","sqrt(goals), shots, pos, squad",0.733612669844868,"goals > 1",4,"shots > 5","sot > 0",NA
+"108","goals, shots, pos, squad",0.731271807198443,"goals > 1",4,"shots > 5","sot > 0",NA
+"109","dist_standard, squad, pos, age",0.730119063135614,"goals > 1 & goals != pk_standard",4,"shots > 5","sot > 0",NA
+"110","log(goals), pos, squad",0.727527633354579,"goals > 1 & goals != pk_standard",3,"shots > 5","sot > 0",NA
+"111","log(goals), pos, squad, x_g_expected",0.725969869016709,"goals > 1",4,"shots > 5","sot > 0",NA
+"112","log(goals), pos, squad",0.7258277243197,"goals > 1",3,"shots > 5","sot > 0",NA
+"113","sqrt(goals), pos, squad",0.72344827186213,"goals > 1",3,"shots > 5","sot > 0",NA
+"114","log(goals - pk_standard), pos, squad",0.722209568019799,"goals > 1 & goals != pk_standard",3,"shots > 5","sot > 0",NA
+"115","sqrt(goals - pk_standard), pos, squad",0.720366038244587,"goals > 1 & goals != pk_standard",3,"shots > 5","sot > 0",NA
+"116","log(goals - pk_standard), squad, dist_standard, shots, games, age, g_minus_x_g_expected",0.712495337866432,"goals > 1 & goals != pk_standard",7,"shots > 5","sot > 0",NA
+"117","log(goals), shots, pos, squad",0.705123838168598,"goals > 2",4,"shots > 5","sot > 0",NA
+"118","sqrt(goals), shots, pos",0.698173376655011,"goals > 1",3,"shots > 5","sot > 0",NA
+"119","sqrt(goals), shots, pos, sot",0.697670462587276,"goals > 1",4,"shots > 5","sot > 0",NA
+"120","sqrt(goals), shots, pos",0.683604215703628,"goals > 1 & shots > 10",3,"shots > 5","sot > 0",NA
+"121","sqrt(goals), pos, squad",0.683513331578945,"none",3,"shots > 5","sot > 0",NA
+"122","sqrt(goals), shots, pos",0.672622183382159,"goals > 2",3,"shots > 5","sot > 0",NA
+"123","sqrt(goals), shots, pos",0.658424069052027,"none",3,"shots > 5","sot > 0",NA
+"124","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age, g_minus_x_g_expected, shots",0.626128507895469,"goals > 0 & goals != pk_standard & pos != ""DF""",8,"shots > 0","sot > 0",603
+"125","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age, g_minus_x_g_expected, x_g_expected",0.624883024395839,"goals > 0 & goals != pk_standard & pos != ""DF""",8,"shots > 0","sot > 0",603
+"126","log(goals - pk_standard), pos, squad, dist_standard, sh_per_game, age, g_minus_x_g_expected",0.624814320503241,"goals > 0 & goals != pk_standard & pos != ""DF""",7,"shots > 0","sot > 0",603
+"127","log(goals - pk_standard), pos, squad, poly(dist_standard, 2), sh_per_game, age, g_minus_x_g_expected",0.624151547312761,"goals > 0 & goals != pk_standard & pos != ""DF""",8,"shots > 0","sot > 0",603
+"128","log(goals), squad, pos, age, games, shots, sot, so_t_percent_standard, g_minus_x_g_expected",0.6165074205088,"goals > 0 & goals != pk_standard & pos != ""DF""",9,"shots > 0","sot > 0",603
+"129","sqrt(goals), shots, pos",0.577899871290462,"goals > 4",3,"shots > 5","sot > 0",NA
+"130","log(goals), squad, shots, pos, games, sot",0.551349091169458,"goals > 0 & goals != pk_standard & pos != ""DF""",6,"shots > 0","sot > 0",603
+"131","log(goals), squad, shots, pos, games, sot, so_t_percent_standard",0.551024868704543,"goals > 0 & goals != pk_standard & pos != ""DF""",7,"shots > 0","sot > 0",603
+"132","log(goals), squad, shots, pos, games, sot, g_minus_x_g_expected",0.550777437581099,"goals > 0 & goals != pk_standard & pos != ""DF""",7,"shots > 0","sot > 0",603
+"133","log(goals - pk_standard), squad, shots, pos, games",0.54388314158949,"goals > 0 & goals != pk_standard & pos != ""DF""",5,"shots > 0","sot > 0",603
+"134","log(goals - pk_standard), squad, shots, pos, games, g_minus_x_g_expected",0.543514851504478,"goals > 0 & goals != pk_standard & pos != ""DF""",6,"shots > 0","sot > 0",603
+"135","log(goals - pk_standard), squad, shots, pos, games, sot",0.543470328692396,"goals > 0 & goals != pk_standard & pos != ""DF""",6,"shots > 0","sot > 0",603
+"136","goals, squad, shots, pos, games, sot, g_minus_x_g_expected",0.532481766923506,"goals > 0 & goals != pk_standard & pos != ""DF""",7,"shots > 0","sot > 0",603
+"137","sqrt(goals), shots, pos",0.522142939459567,"goals > 1 & shots > 50",3,"shots > 5","sot > 0",NA
+"138","log(goals - pk_standard), shots, pos, nationality_group",0.508680062643786,"goals > 0 & goals != pk_standard & pos != ""DF""",4,"shots > 0","sot > 0",603
+"139","log(goals - pk_standard), shots, pos, games, g_minus_x_g_expected",0.500477855288833,"goals > 0 & goals != pk_standard & pos != ""DF""",5,"shots > 0","sot > 0",603
+"140","log(goals - pk_standard), shots, pos, games",0.499142210368487,"goals > 0 & goals != pk_standard & pos != ""DF""",4,"shots > 0","sot > 0",603
+"141","log(goals - pk_standard), table_position, dist_standard, sh_per_game, age, x_g_expected",0.495002591762926,"goals > 0 & goals != pk_standard",6,"shots > 0","sot > 0",227
+"142","log(goals - pk_standard), squad, dist_standard, age",0.480101220124091,"goals > 1 & goals != pk_standard",4,"shots > 5","sot > 0",NA
+"143","log(goals - pk_standard), shots, pos",0.468042108467401,"goals > 0 & goals != pk_standard & pos != ""DF""",3,"shots > 0","sot > 0",603
+"144","log(goals - pk_standard)",0.368409311022411,"goals > 0 & goals != pk_standard & pos != ""DF""",1,"shots > 0","sot > 0",603
