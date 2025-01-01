@@ -20,7 +20,7 @@ In line with our hypothesis, we found that players from countries that are thoug
 
 # Notes
 
-I essentially learned R while doing this project, so the code is terrible and has no comments. Still, some of the analysis we did I think was really cool, albeit limited. 
+I essentially learned R while doing this project, so the code is terrible and has no comments. Still, some of our analysis and findings I think are pretty cool, albeit limited. 
 
 
 # Info
