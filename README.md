@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains the code for a project where I analyzed the effect of nationality bias in the English Premier League under the guidance of my mentor, [Tony ElHabr](https://github.com/tonyelhabr). The idea of nationality bias is that players of different nationalities are rated differently; players from some nationalities tend to be overrated, while players from other nationalities tend to be underrated. More information can be found in Writeup.pdf, which was (poorly) written by my high school self but offers more information and insights. 
+This repository contains the code for a project where I analyzed the effect of nationality bias in the English Premier League under the guidance of my mentor, [Tony ElHabr](https://github.com/tonyelhabr). The idea of nationality bias is that players of different nationalities are rated differently; players from some nationalities tend to be overrated, while players from other nationalities tend to be underrated. More information can be found in [Writeup.pdf](https://github.com/WillLankenau13/nationalityBias/blob/main/Writeup.pdf), which was (poorly) written by my high school self but offers more information and insights. 
 
 
 # Data
